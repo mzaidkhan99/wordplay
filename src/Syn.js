@@ -16,8 +16,8 @@ class Syn extends React.Component{
     fetch(proxyurl + url)
     .then(response => response.json())
     .then(data => {
-        console.log("fetching");
-        console.log({data});
+        // console.log("fetching");
+        // console.log({data});
         this.setState({ items: data })
     })
     .catch((error) => {
@@ -29,7 +29,7 @@ class Syn extends React.Component{
   search = () => {
       var txt = document.getElementById('search-syn').value;
       console.log("search");
-      console.log(txt);
+      // console.log(txt);
       this.fetchSynonym(txt);
     
 }
