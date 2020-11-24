@@ -1,3 +1,13 @@
+### `This is a React Webapp`
+It uses wikipedia api and datamuse api to fetch required data.
+
+## Use
+If you are someone who wants to quickly get basic information about somthing, then this app mught be the one for you.
+It only serves you the introductory paragraph of topics from wikipedia. So get yourself acquainted with some new information quickly.
+https://wordplay-z.herokuapp.com/
+
+*********************************************************************************
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
